@@ -27,9 +27,9 @@ The math is based on a paper from Nick Eyre & Jeff Holzgrafe [Modeling of a Damp
 **2** Download this project and open it with Arduino
 
 **3** Install these libraries
-MCUFRIEND_kbv version 2.9.8 
-Adafruit_GFX_Library version 1.2.9
-SPI version 1.0 
+- MCUFRIEND_kbv version 2.9.8 
+- Adafruit_GFX_Library version 1.2.9
+- SPI version 1.0 
 
 **4** Maybe customize the code depending on the LCD screen you have :
 ```
