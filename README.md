@@ -10,7 +10,7 @@ Then I imagine to make it run with three Pendulum on an Arduiono UNO.
 
 Make it run on an Arduino with only 32k bytes of Flash was a little chalange !
 
-##How it works
+## How it works
 
 It works with a 2.8'' TFP LCD Schield
 
