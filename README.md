@@ -1,6 +1,6 @@
 # Penduluno
 
-Modeling of a Damped Triple Pendulum of an Arduino UNO
+Modeling of a Damped Triple Pendulum on an Arduino UNO
 
 The idea comes from a video of the coding train [Coding Challenge #93: Double Pendulum](https://www.youtube.com/watch?v=uWzPe_S-RVE&t=1s)
 
