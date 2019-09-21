@@ -3,22 +3,19 @@
 // The control pins for the LCD can be assigned to any digital or
 // analog pins...but we'll use the analog pins as this allows us to
 // double up the pins with the touch screen (see the TFT paint example).
-#define LCD_CS A3                                 // Chip Select goes to Analog 3
-#define LCD_CD A2                                 // Command/Data goes to Analog 2
-#define LCD_WR A1                                 // LCD Write goes to Analog 1
-#define LCD_RD A0                                 // LCD Read goes to Analog 0
+#define LCD_CS A3         // Chip Select goes to Analog 3
+#define LCD_CD A2         // Command/Data goes to Analog 2
+#define LCD_WR A1         // LCD Write goes to Analog 1
+#define LCD_RD A0         // LCD Read goes to Analog 0
 
-#define LCD_RESET A4                              // Can alternately just connect to Arduino's reset pin
+#define LCD_RESET A4      // Can alternately just connect to Arduino's reset pin
 
 #include <MCUFRIEND_kbv.h>
 MCUFRIEND_kbv tft;
-// If using the shield, all control and data lines are fixed, and
-// a simpler declaration can optionally be used:
-// Adafruit_TFTLCD tft;
 
-/* Defines */
-#define SCREEN_WIDTH  320                         //
-#define SCREEN_HEIGHT 240                         // Taille de l'écran
+// Screen size 
+#define SCREEN_WIDTH  320                    
+#define SCREEN_HEIGHT 240                     
 
 // Color definitions
 #define BLACK    0x0000
@@ -32,7 +29,8 @@ MCUFRIEND_kbv tft;
 #define GREY     0xEEEE
 
 /* =================================== */
-/*** Triple Pendulum Simulation with RK4 ***/
+/* Triple Pendulum Simulation with RK4 */
+/* =================================== */
 
 ///////////// Global variables /////////////
 // PI
