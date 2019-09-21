@@ -50,4 +50,3 @@ MCUFRIEND_kbv tft;
 **5** Upload the code to your Arduino UNO (don't forget to set it to the right upload settings!)
 
 **Done**
-
